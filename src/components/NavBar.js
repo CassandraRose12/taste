@@ -1,53 +1,55 @@
 import React from "react";
-import Button from "react-bootstrap/Button";
-import Container from "react-bootstrap/Container";
-import Form from "react-bootstrap/Form";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
-import './App.css'
+import { useState } from "react";
+import "./NavBar.css";
+import { Link } from "react-router-dom";
+import { Button } from "./Button";
+import food from './photo/Plate.png'
 
 function NavBar() {
+  const [click, setClick] = useState(false);
+  const [button, setButton] = useState(true);
+
+  const handleClick = () => setClick(!click); // clicking changes the icon
+  const closeMobileMenu = () => setClick(false); // When clicking on links it closes navbar
+
+  const showButton = () => {
+    if (window.innerWidth <= 960) {
+      setButton(false);
+    } else {
+      setButton(true);
+    }
+  };
+  window.addEventListener("resize", showButton);
   return (
-    <Navbar bg="info" expand="lg">
-      <Container fluid>
-        <Navbar.Brand href="#">Navbar scroll</Navbar.Brand>
-        <Navbar.Toggle aria-controls="navbarScroll" />
-        <Navbar.Collapse id="navbarScroll">
-          <Nav
-            className="me-auto my-2 my-lg-0"
-            style={{ maxHeight: "100px" }}
-            navbarScroll
-          >
-            <Nav.Link href="#action1">Home</Nav.Link>
-            <Nav.Link href="#action2">Somewhere</Nav.Link>
-            <NavDropdown title="About Us" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action3">Cassandra</NavDropdown.Item>
-              <NavDropdown.Item href="#action4">
-                Franklin
-              </NavDropdown.Item>
-              {/* <NavDropdown.Divider /> */}
-              <NavDropdown.Item href="#action5">
-                Patrick
-              </NavDropdown.Item>
-            </NavDropdown>
-            <Nav.Link href="#" disabled>
-              Link
-            </Nav.Link>
-          </Nav>
-          {/* <Form className="d-flex">
-            <Form.Control
-              type="search"
-              placeholder="Search"
-              className="me-2"
-              aria-label="Search"
-            />
-            <Button variant="outline-success">Search</Button>
-          </Form> */}
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+    <nav className="navbar">
+      <div className="navbar-container">
+        <Link to="/" className="navbar-logo">
+          TATW
+          <img src={food} className="food" alt="food" />
+        </Link>
+        <div className="menu-icon" onClick={handleClick}>
+          <i className={click ? "fas fa-times" : "fas fa-bars"} />
+        </div>
+        <ul className={click ? "nav-menu active" : "nav-menu"}>
+          <li className="nav-item">
+            <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+              Home
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link
+              to="/Countries"
+              className="nav-links"
+              onClick={closeMobileMenu}
+            >
+              Countries
+            </Link>
+          </li>
+        </ul>
+        {button && <Button buttonStyle="btn--outline">About</Button>}
+      </div>
+    </nav>
   );
 }
-
 export default NavBar;
+// Home, About, Countries

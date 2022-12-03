@@ -1,13 +1,16 @@
-import { Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import NavBar from "./components/NavBar";
-import "bootstrap/dist/css/bootstrap.min.css";
 
 
 function App() {
   return (
     <div className="App">
+      <Router>
       <NavBar />
-      <p>Hi</p>
+      <Routes>
+        <Route path="/" exact />
+      </Routes>
+      </Router>
     </div>
   );
 }
