@@ -24,7 +24,7 @@ function NavBar() {
     <nav className="navbar">
       <div className="navbar-container">
         <Link to="/" className="navbar-logo">
-          TATW
+          <span style={{ fontWeight: 'bold' }}>TATW</span>
           <img src={food} className="food" alt="food" />
         </Link>
         <div className="menu-icon" onClick={handleClick}>

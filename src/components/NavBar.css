@@ -160,3 +160,13 @@
     width: 35px;
     margin-left: 7px;
   }
+  .LinkedIn svg {
+    color: white;
+    font-size: 70px;
+    margin: 20px;
+    cursor: pointer;
+  }
+  .footer {
+    background-color: black;
+    color: white;
+  }
