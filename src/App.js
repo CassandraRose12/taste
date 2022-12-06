@@ -1,7 +1,9 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
-import jpg1 from "./components/photo/jpg1.jpg"
+import About from "./components/About";
+import Home from "./components/Home";
+import Countries from "./components/Countries";
 
 
 function App() {
@@ -10,11 +12,10 @@ function App() {
       <Router>
       <NavBar />
       <Routes>
-        <Route path="/" exact />
+        <Route exact path="/" element={<Home />} />
+        <Route path="/About" element={<About />}/>
+        <Route path="/About" element={<Countries />}/>
       </Routes>
-      <h1>Traveling Through Our TasteBuds</h1>
-      <img src={jpg1} alt="food on table"></img>
-      <h2>Elevate Your Tastebuds</h2>
       <Footer />
       </Router>
     </div>
