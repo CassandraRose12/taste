@@ -1,16 +1,10 @@
 .Parra {
-  /* The image used */
-  background-image: url("./photo/jpg1.jpg");
-
-  /* Full height */
-  height: 20%;
-
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
-  background-repeat: no-repeat;
+
   background-size: contain;
-  max-width: 100%;
+  max-width: 50%;
+  max-height: 20%;
   z-index: 0;
 }
 .home {
@@ -20,3 +14,31 @@
 body {
     background-color: black;
 }
+
+.head-text {
+    position: relative;
+ }
+ .text-on-image {
+   position: absolute;
+   right: 50%;
+   left: 10.5%;
+   bottom: 75%;
+   z-index: 2;
+   color: tan;
+   font-size: 40px;
+ }
+ .explore {
+    position: absolute;
+    right: 50.5%;
+    z-index: 2;
+    color: white;
+    font-size: 40px;
+    
+ }
+ b {
+    color: tan; 
+ }
+ a:hover, a:visited, a:link, a:active
+ {
+     text-decoration: none;
+ }
