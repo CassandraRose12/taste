@@ -4,6 +4,8 @@ import jpg2 from "./photo/jpg2.jpg";
 import "./Home.css";
 import { Link } from "react-router-dom";
 import VideoSection from "./photo/BackVideo";
+import { FirstImage, ImageBg, ImgContent, ImgH1, ImgP1 } from "./photo/BackVideo/Elements";
+import { ImgBg } from "./photo/BackVideo/Elements";
 
 function Home() {
   return (
@@ -11,16 +13,13 @@ function Home() {
       <VideoSection />
       <div className="home">
         <h1>Our Mission:</h1>
-        <div>
           <p>
             Our goal is to provide everyone with high quality recepies to insure
             enjoyment.
           </p>
-        </div>
       </div>
-      <div>
+      {/* <div>
         <img className="Parra" src={jpg1} alt="food" />
-        <br />
         <div className="text-on-image">
           <h1>
             Traveling Throughout <pre></pre>The World
@@ -33,8 +32,28 @@ function Home() {
           </p>
         </div>
         <img className="jp2" src={jpg2} alt="h" />
-      </div>
+      </div> */}
+      <div>
+
+    <FirstImage>
+      <ImgBg>
+      <ImageBg src={jpg1} type="image.jpg"/>
+      </ImgBg>
+      <ImgContent>
+      <ImgH1>Travel Around The World <br></br> For Food</ImgH1>
+      <ImgP1>Elevate Your TasteBuds <Link to="/Countries">
+              <b>Here</b>
+            </Link></ImgP1>
+      </ImgContent>
+    </FirstImage>
     </div>
+      </div>
+
+
+
+
+
+
     // <div className="head-text">
     //   <div className="head-image">
     //     <div className="images">

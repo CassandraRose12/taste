@@ -7,8 +7,19 @@
   /* add sliding transition */
 }
 .home {
-  background-color: lightgrey;
+  background-color: tan;
   color: Black;
+  display: grid;
+  place-items: center;
+}
+.home h1 {
+  margin: 0;
+  padding: 0;
+}
+.home p {
+ justify-content: center;
+ margin-bottom: 100px;
+ bottom: 20px;
 }
 
 body {
@@ -17,14 +28,13 @@ body {
 }
 
 .text-on-image {
-  position: relative;
+ position: relative;
   right: 40%;
   left: 9.5%;
   z-index: 2;
   color: tan;
   font-size: 1.8vw;
   text-shadow: 0px 0px 2px black;
-  top: -40%;
 }
 .explore {
   position: relative;
@@ -53,3 +63,4 @@ a:active {
   width: 50vh;
   height: 40vw, 40vh;
 }
+
