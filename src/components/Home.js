@@ -20,7 +20,7 @@ function Home() {
       <div className="home">
         <h1>Our Mission:</h1>
         <p>
-          Our goal is to provide everyone with high quality recipes to insure
+          Our goal is to provide everyone with high quality recipes to ensure
           enjoyment.
         </p>
       </div>
@@ -45,7 +45,7 @@ function Home() {
           <img src={jpg1} alt="food" />
           <div className="hover-text">
             <h1 className="text">
-              Travel Around The World <br></br> For Food
+              Taste Around The World <br></br> For Food
               <p>Click <Link to="/Countries">
                 <b>Here</b>
               </Link> To Get Started</p>

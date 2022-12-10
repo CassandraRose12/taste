@@ -1,7 +1,7 @@
 Taste Around the World : Traveling Through Tasebuds 
 
 We started as wanting to create an application where you can recreate national dishes from around the world. 
-We wanted to share our love for food by showcasing recipes from different culture as well as allow individuals to add recipes to the site. 
+We wanted to share our love for food by showcasing recipes from different cultures as well as allow individuals to add recipes to the site. 
 
 This application uses a PERN stack. 
 
@@ -23,10 +23,13 @@ Established:
 Issues:
 -was able to connect the data to front end, but unable to to render that data directly onto the site. 
 -didn't have time to import more recipe data 
+-time 
 
 Preston: BackEnd
 -The backend consisted of the controller/routes and using those to connect directly and send JSON data to/from the database api and also to the frontend web pages. 
 -Find all recipes, Find a specific recipe, create a new recipe, update a recipe, and delete a recipe. We used Postman to test the controllers. 
+
+opportunities for next time: FE and BE wasn't connecting, time management
 
 
 Photo by <a href="https://unsplash.com/@lvnatikk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Lily Banse</a> on <a href="https://unsplash.com/s/photos/food?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
@@ -34,5 +37,6 @@ Photo by <a href="https://unsplash.com/@lvnatikk?utm_source=unsplash&utm_medium=
   
 
 Sequelize Fixtures: <a href="https://github.com/domasx2/sequelize-fixtures">
+Cors: <a href="https://www.npmjs.com/package/cors">
 
-Sources: youtube videos; https://www.youtube.com/watch?v=-MTSQjw5DrM,  https://www.youtube.com/watch?v=J01rYl9T3BU  https://designcode.io/react-hooks-handbook-fetch-data-from-an-api
+Sources: youtube videos; <a href="https://www.youtube.com/watch?v=-MTSQjw5DrM,  https://www.youtube.com/watch?v=J01rYl9T3BU  https://designcode.io/react-hooks-handbook-fetch-data-from-an-api"
