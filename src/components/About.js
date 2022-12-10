@@ -7,7 +7,7 @@ import GithubIcon from "@mui/icons-material/GitHub";
 const slides = [
   { url: "http://localhost:3000/Cassandra.jpg", title: "Cassandra" },
   { url: "http://localhost:3000/Patrick.jpg", title: "Patrick" },
-  { url: "http://localhost:3000/jpg1.jpg", title: "Franklin" },
+  { url: "http://localhost:3000/franklin.JPG", title: "Franklin" },
 ];
 const containerStyles = {
   width: "300px",
