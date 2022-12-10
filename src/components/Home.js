@@ -47,12 +47,12 @@ function Home() {
             <h1 className="text">
               Travel Around The World <br></br> For Food
             </h1>
-            <p>
+            {/* <p>
               Elevate Your TasteBuds
               <Link to="/Countries">
                 <b> Here</b>
               </Link>
-            </p>
+            </p> */}
           </div>
         </div>
       </div>
