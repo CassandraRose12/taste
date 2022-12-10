@@ -8,7 +8,7 @@ function Countries() {
   const [recipes, setRecipes] = useState('')
   useEffect(() => {
         const fetchData = async () => {
-            const response = await fetch(`https://localhost:3004/api/recipes`)
+            const response = await fetch(`http://localhost:3004/api/recipes`)
             const resData = await response.json()
             setRecipes(resData)
             console.log(resData)
