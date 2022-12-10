@@ -46,6 +46,9 @@ function Home() {
           <div className="hover-text">
             <h1 className="text">
               Travel Around The World <br></br> For Food
+              <p>Click <Link to="/Countries">
+                <b>Here</b>
+              </Link> To Get Started</p>
             </h1>
             {/* <p>
               Elevate Your TasteBuds

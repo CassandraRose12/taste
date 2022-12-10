@@ -1,5 +1,6 @@
-body {
-background-image: linear-gradient(tan, white);
+ .aboutBody {
+  background-image: linear-gradient(tan, white);
+  padding-top: 1px;
 }
 .title {
  text-align: center;

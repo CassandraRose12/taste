@@ -3,6 +3,7 @@ import ImageSlider from "./ImageSlider";
 import "./About.css";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GithubIcon from "@mui/icons-material/GitHub";
+
 const slides = [
   { url: "http://localhost:3000/Cassandra.jpg", title: "Cassandra" },
   { url: "http://localhost:3000/Patrick.jpg", title: "Patrick" },
@@ -15,6 +16,7 @@ const containerStyles = {
 };
 function About() {
   return (
+    <body className="aboutBody">
     <div className="idk">
       <h1 className="title">Meet The People Behind TATW</h1>
       <div style={containerStyles} className="ImageSlider">
@@ -64,6 +66,7 @@ function About() {
         </div>
       </div>
     </div>
+    </body>
   );
 }
 

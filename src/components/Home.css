@@ -70,7 +70,7 @@ a:active {
   display: inline-block;
   background-color: white;
   margin-top: 60px;
-  margin-bottom: 20px;
+  margin-bottom: 60px;
   /* margin-left: 40vh; */
   text-align: center;
 }
@@ -94,17 +94,21 @@ img {
   display: table;
   height: 100%;
   width: 100%;
+  margin-top: 8rem;
 }
 
 .hover-text .text {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
-  font-size: 2.0em;
+  font-size: 3em;
   color: white;
+  text-shadow: 0px 0px 1.5px black;
+  
 }
 .text p {
- position: absolute;
+  font-size: 33px;
+  margin-top: 30px;
 }
 .image-container img {
   vertical-align: top; /* fixes white space due to baseline alignment */
