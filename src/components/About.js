@@ -26,19 +26,19 @@ function About() {
         <div class="row">
           <div class="column">
             <h2>Cassandra</h2>
-            <p>Some text..</p>
-            <a href="http://google.com"  rel="noreferrer" target="_blank">
+            <p>Here are Cassandra's socials</p>
+            <a href="https://www.linkedin.com/in/cassandra-collins-88519765"  rel="noreferrer" target="_blank">
               {" "}
               <LinkedInIcon />{" "}
             </a>
-            <a href="http://google.com"  rel="noreferrer" target="_blank">
+            <a href="https://github.com/cassandrarose12"  rel="noreferrer" target="_blank">
               {" "}
               <GithubIcon />{" "}
             </a>
           </div>
           <div class="column">
             <h2>Patrick</h2>
-            <p>Some text..</p>
+            <p>Here are Patrick's socials</p>
             <a
               href="https://www.linkedin.com/in/patrick-hachicho-9b0396236/"
               rel="noreferrer" target="_blank"
@@ -53,12 +53,12 @@ function About() {
           </div>
           <div class="column">
             <h2>Franklin</h2>
-            <p>Some text..</p>
-            <a href="http://google.com"  rel="noreferrer" target="_blank">
+            <p>Here are Franklin's socials</p>
+            <a href="https://www.linkedin.com/in/franklinpreston"  rel="noreferrer" target="_blank">
               {" "}
               <LinkedInIcon />{" "}
             </a>
-            <a href="http://google.com"  rel="noreferrer" target="_blank">
+            <a href="https://github.com/PrestonFr21"  rel="noreferrer" target="_blank">
               {" "}
               <GithubIcon />{" "}
             </a>
