@@ -20,7 +20,7 @@ function Home() {
       <div className="home">
         <h1>Our Mission:</h1>
         <p>
-          Our goal is to provide everyone with high quality recepies to insure
+          Our goal is to provide everyone with high quality recipes to insure
           enjoyment.
         </p>
       </div>

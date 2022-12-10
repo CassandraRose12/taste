@@ -1,8 +1,13 @@
 import React from 'react'
-
+import './Countries.css'
 function Countries() {
   return (
-    <div>Countries</div>
+    <div class="row">
+          <div class="column">
+            <h1>Countries</h1>
+            <p>Some text..</p>
+            </div>
+            </div>
   )
 }
 

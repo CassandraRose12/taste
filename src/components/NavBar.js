@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import { Button } from "./Button";
 import food from './photo/Plate.png'
 
+
 function NavBar() {
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
