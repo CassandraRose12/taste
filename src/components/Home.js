@@ -11,13 +11,6 @@ import {
   ImgH1,
   ImgP1,
 } from "./photo/BackVideo/Elements";
-import {
-  SecondImage,
-  Image2Bg,
-  Img2Content,
-  Img2H1,
-  Img2P1,
-} from "./photo/BackVideo/Elements";
 import { ImgBg } from "./photo/BackVideo/Elements";
 
 function Home() {
@@ -31,23 +24,8 @@ function Home() {
           enjoyment.
         </p>
       </div>
-      {/* <div>
-        <img className="Parra" src={jpg1} alt="food" />
-        <div className="text-on-image">
-          <h1>
-            Traveling Throughout <pre></pre>The World
-          </h1>
-          <p className="explore">
-            Elevate Your TasteBuds{" "}
-            <Link to="/Countries">
-              <b>Here</b>
-            </Link>
-          </p>
-        </div>
-        <img className="jp2" src={jpg2} alt="h" />
-      </div> */}
       <div>
-        <FirstImage>
+        {/* <FirstImage>
           <ImgBg>
             <ImageBg src={jpg1} type="image.jpg" />
           </ImgBg>
@@ -62,35 +40,23 @@ function Home() {
               </Link>
             </ImgP1>
           </ImgContent>
-        </FirstImage>
-        <SecondImage>
-          <Image2Bg src={jpg2} type="image.jpg" />
-          <Img2Content>
-          </Img2Content>
-        </SecondImage>
+        </FirstImage> */}
+        <div className="image-container">
+          <img src={jpg1} alt="food" />
+          <div className="hover-text">
+            <h1 className="text">
+              Travel Around The World <br></br> For Food
+            </h1>
+            <p>
+              Elevate Your TasteBuds
+              <Link to="/Countries">
+                <b> Here</b>
+              </Link>
+            </p>
+          </div>
+        </div>
       </div>
     </div>
-
-    // <div className="head-text">
-    //   <div className="head-image">
-    //     <div className="images">
-    //   <img className="Parra" src={jpg1} alt="food" />
-    //   <br></br>
-    //   <img className="jp2" src={jpg2} alt="h" />
-    //     </div>
-    //   <div className="text-on-image">
-    //     <h1>Traveling Throughout <pre></pre>The World</h1>
-    //      <p className="explore">Elevate Your TasteBuds <Link to="/Countries"><b>Here</b></Link></p>
-    //   </div>
-    //   </div>
-    //   <div className="home">
-    //   <h1>Traveling Through Our TasteBuds</h1>
-    //   <h2>Elevate Your Tastebuds</h2>
-    //   </div>
-
-    //   {/* <div style={{ backgroundImage: `url(${jpg2})` }}>
-    //   </div> */}
-    // </div>
   );
 }
 

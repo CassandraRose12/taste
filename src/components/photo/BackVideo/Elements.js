@@ -61,11 +61,11 @@ export const HeroP = styled.p`
 export const FirstImage = styled.div`
   background: white;
   display: flex;
-  justify-content: left;
   padding: 0 30px;
   height: 800px;
   position: relative;
   z-index: 1;
+    left: 22%;
 `;
 
 export const ImgBg = styled.div`
@@ -78,7 +78,7 @@ export const ImgBg = styled.div`
  width: 50%;
  height: 90%;
  overflow: hidden;
- margin-bottom: 20px;
+ margin-bottom: 42px;
  justify-content: left;
  `;
 
@@ -115,74 +115,6 @@ position: relative;
 `;
 
 export const ImgP1 = styled.p`
-  position: relative;
-    left: 160px;
-  margin-top: 24px;
-  color: #fff;
-  font-size: 34px;
-  text-align: center;
-  max-width: 600px;
-  text-shadow: 0px 0px 2px black;
-`;
-
-export const SecondImage = styled.div`
-  background: white;
-  display: flex;
-  justify-content: right;
-  padding: 0 30px;
-  height: 800px;
-  position: relative;
-  z-index: 1;
-`;
-
-export const Img2Bg = styled.div`
- position: absolute;
- top: 0;
- right: 0;
- bottom 0;
- left 0;
- padding-left: 50px;
- width: 50%;
- height: 90%;
- overflow: hidden;
- margin-bottom: 20px;
- justify-content: right;
- `;
-
-export const Image2Bg = styled.img`
-  width: 50%;
-  height: 80%;
-  -o-object-fit: cover;
-  object-fit: cover;
-  background: #232a34;
-  margin-top: 70px;
-`;
-
-export const Img2Content = styled.div`
-  z-index: 3;
-  max-width: 1200px;
-  position: relative;
-  padding: 8px 24px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  
-`;
-
-export const Img2H1 = styled.h1`
-position: relative;
-  color: tan;
-  font-size: 58px;
-  text-align: center;
-  margin-top: 290px;
-    left: 160px;
-    display: flex;
-    justify-content: right;
-  text-shadow: 0px 0px 2px black;
-
-`;
-
-export const Img2P1 = styled.p`
   position: relative;
     left: 160px;
   margin-top: 24px;
