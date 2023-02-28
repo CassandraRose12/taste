@@ -1,0 +1,115 @@
+.Parra {
+  width: 50vw;
+  height: 40vh 40vw;
+  z-index: 0;
+  padding-left: 4vw;
+  padding-top: 20px;
+  /* add sliding transition */
+}
+.home {
+  background-color: tan;
+  color: Black;
+  display: grid;
+  place-items: center;
+  
+}
+.home h1 {
+  margin: 0;
+  padding: 0;
+}
+.home p {
+ justify-content: center;
+ margin-bottom: 100px;
+ bottom: 20px;
+}
+
+body {
+  background-color: white;
+  width: 100%;
+}
+
+.text-on-image {
+ position: relative;
+  right: 40%;
+  left: 9.5%;
+  z-index: 2;
+  color: tan;
+  font-size: 1.8vw;
+  text-shadow: 0px 0px 2px black;
+}
+.explore {
+  position: relative;
+  left: 0.7%;
+  z-index: 2;
+  color: white;
+  font-size: 2vw, 2vh;
+  text-shadow: 0px 0px 2px black;
+}
+b {
+  color: tan;
+}
+a:hover,
+a:visited,
+a:link,
+a:active {
+  text-decoration: none;
+}
+/* @media screen and (max-width: 768px){
+  .text-on-image {
+    font-size: 10px;
+  }
+} */
+
+.jp2 {
+  width: 50vh;
+  height: 40vw, 40vh;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+  background-color: white;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  /* margin-left: 40vh; */
+  text-align: center;
+}
+img {
+  height: 50%;
+   width: 50%;
+   vertical-align: middle;
+}
+
+.image-container .hover-text {
+  height: 50%;
+  width: 50%;
+  position: absolute;
+  left: 25%;
+  right: 0;
+  top: 30px;
+  bottom: 0;
+  
+}
+.hover-text {
+  display: table;
+  height: 100%;
+  width: 100%;
+  margin-top: 8rem;
+}
+
+.hover-text .text {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 3em;
+  color: white;
+  text-shadow: 0px 0px 1.5px black;
+  
+}
+.text p {
+  font-size: 33px;
+  margin-top: 30px;
+}
+.image-container img {
+  vertical-align: top; /* fixes white space due to baseline alignment */
+}

@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+Taste Around the World : Traveling Through Tasebuds 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+We started as wanting to create an application where you can recreate national dishes from around the world. 
+We wanted to share our love for food by showcasing recipes from different cultures as well as allow individuals to add recipes to the site. 
 
-## Available Scripts
+This application uses a PERN stack. 
 
-In the project directory, you can run:
+Patrick: Front End
+-The front end was created with the following Languages, Frameworks, Libraries: Javascript, CSS, Html, React, -React-Router-Dom, Mui/Icons, and React-Bootstrap
+-The front-end consists of the Home page, About page, Countries page, and National page.
+-Bugs: Picture sizing isint completely linear when zooming in and out.
 
-### `npm start`
+Whats not working: The front end and back end are not connected as of right now. 
+What i could of done better: Made the UI a little cleaner with better color contrast.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Cassandra:BackEnd 
+Established: 
+-the ERD, 
+-models, migrations, 
+-compiled recipe data, 
+-used sequelize fixtures to import my data from vsCode to PgAdmin, 
+Issues:
+-was able to connect the data to front end, but unable to to render that data directly onto the site. 
+-didn't have time to import more recipe data 
+-time 
 
-### `npm test`
+Preston: BackEnd
+-The backend consisted of the controller/routes and using those to connect directly and send JSON data to/from the database api and also to the frontend web pages. 
+-Find all recipes, Find a specific recipe, create a new recipe, update a recipe, and delete a recipe. We used Postman to test the controllers. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+opportunities for next time: FE and BE wasn't connecting, time management
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Photo by <a href="https://unsplash.com/@lvnatikk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Lily Banse</a> on <a href="https://unsplash.com/s/photos/food?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  Photo by <a href="https://unsplash.com/@brookelark?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Brooke Lark</a> on <a href="https://unsplash.com/s/photos/food?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Sequelize Fixtures: <a href="https://github.com/domasx2/sequelize-fixtures">
+Cors: <a href="https://www.npmjs.com/package/cors">
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Sources: youtube videos; <a href="https://www.youtube.com/watch?v=-MTSQjw5DrM,  https://www.youtube.com/watch?v=J01rYl9T3BU  https://designcode.io/react-hooks-handbook-fetch-data-from-an-api"
